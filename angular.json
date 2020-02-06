@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "material-aio-example": {
+    "material-accounts": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -82,5 +82,5 @@
       }
     }
   },
-  "defaultProject": "material-aio-example"
+  "defaultProject": "material-accounts"
 }
