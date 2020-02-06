@@ -7,7 +7,7 @@ import { AppService } from './../service/app.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-
+title="home";
   constructor(appService: AppService) { 
 
   }
