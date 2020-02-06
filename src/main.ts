@@ -23,7 +23,7 @@ import {AppComponent} from './app/app.component';
     MatNativeDateModule,
     ReactiveFormsModule,
   ],
-  //entryComponents: [DialogOverviewExample, DialogOverviewExampleDialog],
+  entryComponents: [DialogOverviewExample, DialogOverviewExampleDialog],
   declarations: [
     AppComponent,
     DialogOverviewExample, 
