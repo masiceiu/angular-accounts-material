@@ -9,10 +9,9 @@ import { AppService } from './../service/app.service';
 export class AppComponent implements OnInit {
 title="home";
   constructor(appService: AppService) { 
-
+   this.title =  appService.message+' '+ this.title
   }
   ngOnInit() {
 
   }
-
 }
