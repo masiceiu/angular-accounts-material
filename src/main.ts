@@ -7,9 +7,11 @@ import {MatNativeDateModule} from '@angular/material/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MaterialModule} from './materials/material-module';
+import {MaterialModule} from './materials/material.module';
 
 import {DialogOverviewExample, DialogOverviewExampleDialog} from './materials/dialog-overview-example';
+
+import {AppComponent} from './app/app.component';
 
 @NgModule({
   imports: [
@@ -22,7 +24,11 @@ import {DialogOverviewExample, DialogOverviewExampleDialog} from './materials/di
     ReactiveFormsModule,
   ],
   entryComponents: [DialogOverviewExample, DialogOverviewExampleDialog],
-  declarations: [DialogOverviewExample, DialogOverviewExampleDialog],
+  declarations: [
+    AppComponent,
+    DialogOverviewExample, 
+    DialogOverviewExampleDialog
+    ],
   bootstrap: [DialogOverviewExample],
   providers: []
 })
