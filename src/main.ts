@@ -8,8 +8,8 @@ import {BrowserModule} from '@angular/platform-browser';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {CoreMaterialModule} from './material/core.material.module';
+import {AppsMaterialModule} from './material/apps.material.module';
 
-import {DialogOverviewExample, DialogOverviewExampleDialog} from './material/dialog-overview-example';
 
 import {AppComponent} from './app/app.component';
 
@@ -23,11 +23,8 @@ import {AppComponent} from './app/app.component';
     MatNativeDateModule,
     ReactiveFormsModule,
   ],
-  entryComponents: [DialogOverviewExample, DialogOverviewExampleDialog],
   declarations: [
-    AppComponent,
-    DialogOverviewExample, 
-    DialogOverviewExampleDialog
+    AppComponent
     ],
   bootstrap: [AppComponent],
   providers: []
