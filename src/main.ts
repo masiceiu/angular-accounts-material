@@ -22,6 +22,10 @@ import {AppComponent} from './app/app.component';
     CoreMaterialModule,
     MatNativeDateModule,
     ReactiveFormsModule,
+    AppsMaterialModule
+  ],
+  exports: [
+    AppsMaterialModule
   ],
   declarations: [
     AppComponent
