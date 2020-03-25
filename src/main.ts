@@ -7,7 +7,7 @@ import {MatNativeDateModule} from '@angular/material/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MaterialModule} from './material/material.module';
+import {CoreMaterialModule} from './material/core.material.module';
 
 import {DialogOverviewExample, DialogOverviewExampleDialog} from './material/dialog-overview-example';
 
@@ -19,7 +19,7 @@ import {AppComponent} from './app/app.component';
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
-    MaterialModule,
+    CoreMaterialModule,
     MatNativeDateModule,
     ReactiveFormsModule,
   ],
